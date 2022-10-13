@@ -5,7 +5,7 @@ let calValue = '';
 for(let btn of btns) {
     btn.addEventListener("click", (e) => {
         
-        btnText = e.target.innerText;
+        let btnText = e.target.innerText;
         
         try{
 
