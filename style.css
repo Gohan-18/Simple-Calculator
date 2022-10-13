@@ -16,10 +16,14 @@ main {
     background: #7b1fa2;
 }
 
-section {
+.container {
     background-color: aliceblue;
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
+}
+
+.keyPad {
+    padding: 20px 10px 10px 10px;
 }
 
 .cal-display {
@@ -28,6 +32,7 @@ section {
 
 #calc-display {
     font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
     background: none;
     display: inline-block;
     width: auto;
@@ -44,14 +49,22 @@ h3 {
 
 div ul li {
     display: inline-block;
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 
 button {
-    font-size: 20px;
-    color: #4a0072;
-    height: 40px;
-    width: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #7b1fa2;
+    background: none;
+    border: none;
+    height: 50px;
+    width: 50px;
     cursor: pointer;
     border-radius: 50%;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #ee98fb;
 }

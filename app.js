@@ -33,7 +33,8 @@ for(let btn of btns) {
         }
         catch(err){
             alert("Please Input Correct Mathematical Expression!!");
-            // calScreen.value = "Please input right mathematics expression!!";
+            calValue = "";
+            calScreen.value = calValue;
         }
 
     })
